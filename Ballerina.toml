@@ -1,0 +1,13 @@
+[package]
+org = "ballerinax"
+name = "health.fhir.templates.r4.smartconfiguration"
+version = "1.0.0"
+authors = ["Ballerina"]
+keywords = ["Healthcare", "FHIR", "SMART"]
+distribution = "2201.4.1"
+include = ["Config.toml"]
+repository="https://github.com/ballerina-platform/module-ballerinax-health.fhir.templates"
+template = true
+
+[build-options]
+observabilityIncluded = true
